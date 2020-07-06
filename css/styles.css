@@ -74,6 +74,9 @@ body {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
+ .navbar-header button.navbar-toggle {
+  margin-top: 5px;
+}
 /* END HEADER */
 
 /* FOOTER */
@@ -321,6 +324,7 @@ h3.menu-item-title {
     padding-top: 5px;
     font-size: 6vw;
   }
+ 
   /* End Header */
   
   /* Home page */
