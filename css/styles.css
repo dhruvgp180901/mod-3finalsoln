@@ -354,5 +354,9 @@ h3.menu-item-title {
   margin:0;
 }
 
+.navbar-header button.navbar-toggle {
+  float:right;
+   margin-top:5px;
+}
 
 
