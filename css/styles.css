@@ -343,7 +343,7 @@ h3.menu-item-title {
   }
 }
 
-.container-fluid{
+#main-content .container-fluid{
   background-color:white;
   color:black;
   position:relative;
