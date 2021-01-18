@@ -29,11 +29,11 @@
 * **Board positions are referenced by integers in the range [1 - 9] sequentially-**
  
  
-                                                             1 | 2 | 3 
-                                                              --------
-                                                             4 | 5 | 6
-                                                              --------
-                                                             7 | 8 | 9
+					     1 | 2 | 3 
+					      --------
+					     4 | 5 | 6
+					      --------
+					     7 | 8 | 9
 
 1. At the start of the game, firstly you have to choose a number wich can be either 1 or 2 -
 	
@@ -121,12 +121,12 @@
 -> In this solution, we have changed the numbering of cells in such a way that it has become a magic square and the
    sum of each row, column and diagonal becomes 15.
 
-                                                      Initial board    =>     Final Magic Square
-                                                        1 | 2 | 3                8 | 3 | 4 
-                                                        --------                 --------
-                                                        4 | 5 | 6      =>        1 | 5 | 9
-                                                        --------                 --------
-                                                        7 | 8 | 9                6 | 7 | 2
+			      Initial board    =>     Final Magic Square
+				1 | 2 | 3                8 | 3 | 4 
+				--------                 --------
+				4 | 5 | 6      =>        1 | 5 | 9
+				--------                 --------
+				7 | 8 | 9                6 | 7 | 2
 
 -> It is very similar to solution - 2 but here, we check the possibility of win by using the sum of magic square i.e.-
 	
